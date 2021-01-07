@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40PX;
+}
+.name-highlight{
+    color:orangered;
+}
+.half-highlight{
+    color: midnightblue;
+
+}
+.half-width{
+    width: 35%;
+    float:left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+}
