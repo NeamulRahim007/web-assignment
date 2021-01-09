@@ -4,15 +4,31 @@ body{
 h1{
     font-size: 40PX;
 }
+h2{
+    font-size: 35px;
+}
+p{
+    color: lightslategrey;
+}
 .name-highlight{
     color:orangered;
 }
 .half-highlight{
     color: midnightblue;
 
+
+}
+.about-highlight{
+    color: lightcoral;
+}
+.project-highlight{
+    color: orangered;
+}
+.headline-center{
+    text-align: center;
 }
 .half-width{
-    width: 35%;
+    width: 23%;
     float:left;
     margin-left: 2%;
     padding-left: 5%;
@@ -22,4 +38,40 @@ h1{
 }
 section{
     height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: indigo;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: ivory;
+    font-weight: 700;
+    background-image: linear-gradient(lightsalmon,tomato);
+    
+}
+.single-experience{
+    box-shadow: 5px 5px 20px royalblue;
+    border-radius: 5px;
+    height: 65%;
+}
+#power-gym{
+    border-right: 7px solid;
+    border-image: linear-gradient( green, red);
+    border-image-slice: 2;
+}
+#creative-agency{
+    border-right: solid;
+    border-image: linear-gradient(blue,royalblue);
+    border-image-slice: 2;
+}
+
+#rock-music{
+    border-right: solid;
+    border-image: linear-gradient(orangered,yellow);
+    border-image-slice: 2;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
 }
